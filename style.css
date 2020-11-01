@@ -1,0 +1,67 @@
+body {
+    background-color: teal;
+    font-family: system-ui;
+    font-weight: 400;
+}
+
+#title {
+    text-align: center;
+    font-size: 40px;
+    font-family: cursive; 
+    border-radius: 10px;
+}
+
+#img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    border-radius: 10px;
+    padding: 20px;
+}
+
+#image {    
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;    
+}
+
+#img-caption {
+    font-size: 20px;    
+}
+
+#main {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(     rgba(255, 255, 255, 0.89), rgba(235, 235, 235, 0.932)), url(https://image.freepik.com/free-vector/cinema-icons-set-color_1284-12940.jpg);    
+}
+
+#tribute-info {
+    border: 1px solid black;
+    margin-top: 20px;
+    padding-right: 20px;
+    background-color: #F6F6F6;    
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.tribute-link {
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.background {
+    position: absolute;
+    size: 100%;    
+}
+
+li {
+    padding-bottom: 15px;
+}
